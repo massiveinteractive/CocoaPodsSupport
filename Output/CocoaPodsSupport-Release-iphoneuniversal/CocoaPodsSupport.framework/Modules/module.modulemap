@@ -1,0 +1,6 @@
+framework module CocoaPodsSupport {
+  umbrella header "CocoaPodsSupport.h"
+
+  export *
+  module * { export * }
+}
