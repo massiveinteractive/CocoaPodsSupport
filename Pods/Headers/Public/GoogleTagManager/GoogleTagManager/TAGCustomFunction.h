@@ -1,1 +1,1 @@
-../../../../GoogleTagManager/Frameworks/GoogleTagManager.framework/Headers/TAGCustomFunction.h
+../../../../GoogleTagManager/Frameworks/frameworks/GoogleTagManager.framework/Headers/TAGCustomFunction.h

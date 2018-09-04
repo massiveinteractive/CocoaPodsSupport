@@ -2,6 +2,5 @@
 # platform :ios, '9.0'
 
 target 'CocoaPodsSupport' do
-    platform :ios, '9.0'
-    pod 'GoogleTagManager'
+    pod 'GoogleTagManager', '6.0'
 end
