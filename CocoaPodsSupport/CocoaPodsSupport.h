@@ -15,4 +15,3 @@ FOUNDATION_EXPORT double CocoaPodsSupportVersionNumber;
 FOUNDATION_EXPORT const unsigned char CocoaPodsSupportVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CocoaPodsSupport/PublicHeader.h>
-#import <CocoaPodsSupport/PublicHeader.h>
