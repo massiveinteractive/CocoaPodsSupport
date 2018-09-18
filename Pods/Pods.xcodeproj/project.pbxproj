@@ -595,7 +595,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -629,10 +630,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B250302E6819304019D682C64969DC7F /* GoogleToolboxForMac.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "";
@@ -655,10 +656,10 @@
 			baseConfigurationReference = E2801AA58CB3CBCC3A9BFFBC773E7E50 /* Pods-CocoaPodsSupport.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
@@ -677,10 +678,10 @@
 			baseConfigurationReference = 9A20193B7EEE4709A11F1E1A93C29609 /* nanopb.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "";
@@ -701,10 +702,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B250302E6819304019D682C64969DC7F /* GoogleToolboxForMac.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "";
@@ -726,10 +727,10 @@
 			baseConfigurationReference = 9A20193B7EEE4709A11F1E1A93C29609 /* nanopb.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "";
@@ -752,10 +753,10 @@
 			baseConfigurationReference = A053ADC6BF2B0686015F2C929363D33E /* Pods-CocoaPodsSupport.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
@@ -802,7 +803,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: MASSIVE INTERACTIVE MEDIA LIMITED";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
