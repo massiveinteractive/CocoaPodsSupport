@@ -44,7 +44,7 @@ install_framework()
   fi
 
   # Resign the code if required by the build settings to avoid unstable apps
-  code_sign_if_enabled "${destination}/$(basename "$1")"
+#code_sign_if_enabled "${destination}/$(basename "$1")"
 
   # Embed linked Swift runtime libraries. No longer necessary as of Xcode 7.
   if [ "${XCODE_VERSION_MAJOR}" -lt 7 ]; then
@@ -53,7 +53,7 @@ install_framework()
     for lib in $swift_runtime_libs; do
       echo "rsync -auv \"${SWIFT_STDLIB_PATH}/${lib}\" \"${destination}\""
       rsync -auv "${SWIFT_STDLIB_PATH}/${lib}" "${destination}"
-      code_sign_if_enabled "${destination}/${lib}"
+#code_sign_if_enabled "${destination}/${lib}"
     done
   fi
 }
