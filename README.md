@@ -20,7 +20,7 @@ carthage update
 * [CocoaPods](https://cocoapods.org/)
   * `sudo gem install cocoapods`
 
-In order to add "YourCocoaPodsLibrary" you need to specify it in the `Podfile` of the project:
+In order to add `YourCocoaPodsLibrary` you need to specify it in the `Podfile` of the project:
 
 ```ruby
 target 'CocoaPodsSupport' do
@@ -33,4 +33,4 @@ And run:
 ```
 pod install
 ```
-To download and install "YourCocoaPodsLibrary" into the project.
+To download and install `YourCocoaPodsLibrary` into the project.
