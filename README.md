@@ -4,10 +4,6 @@ Simple Cocoa Touch project providing support of CocoaPods libraries in projects 
 ## Included CocoaPods libraries
 * [GoogleTagManager](https://cocoapods.org/pods/GoogleTagManager) version 6.0
 
-## Requirements
-* [CocoaPods](https://cocoapods.org/)
-  * `sudo gem install cocoapods`
-
 ## Usage
 ### [Carthage](https://github.com/Carthage/Carthage)
 Add the following line to your `Cartfile`:
@@ -20,6 +16,10 @@ carthage update
 ```
 
 ## Adding a new CocoaPods library
+### Prerequisites
+* [CocoaPods](https://cocoapods.org/)
+  * `sudo gem install cocoapods`
+
 In order to add "YourCocoaPodsLibrary" you need to specify it in the `Podfile` of the project:
 
 ```ruby
