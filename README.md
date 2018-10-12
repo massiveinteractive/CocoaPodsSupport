@@ -1,8 +1,8 @@
 # CocoaPods Support for Carthage Projects
-Simple Cocoa Touch project providing support of CocoaPods libraries in projects that use Carthage.
+Simple Cocoa Touch project providing support of CocoaPods libraries in projects using Carthage as a dependency manager.
 
 ## Included CocoaPods libraries
-* [GoogleTagManager](https://cocoapods.org/pods/GoogleTagManager) ~> 6.0
+* [GoogleTagManager](https://cocoapods.org/pods/GoogleTagManager) version 6.0
 
 ## Requirements
 * [CocoaPods](https://cocoapods.org/)
@@ -19,7 +19,7 @@ And run:
 carthage update
 ```
 
-## Adding CocoaPods library into the project
+## Adding a new CocoaPods library
 In order to add "YourCocoaPodsLibrary" you need to specify it in the `Podfile` of the project:
 
 ```ruby
