@@ -33,3 +33,4 @@ And run:
 ```
 pod install
 ```
+To download and install "YourCocoaPodsLibrary" into the project.
