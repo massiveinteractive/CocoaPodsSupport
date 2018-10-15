@@ -1,4 +1,10 @@
 # CocoaPods Support for Carthage Projects
+
+[![Build Status](https://travis-ci.org/emirandm/CocoaPodsSupport.svg?branch=master)](https://travis-ci.org/emirandm/CocoaPodsSupport)
+![Carthage Compatible](https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat)
+![Swift Version](https://img.shields.io/badge/swift-4.0-brightgreen.svg)
+
+
 Simple Cocoa Touch project providing support of CocoaPods libraries in projects using Carthage as a dependency manager.
 
 ## Included CocoaPods libraries
